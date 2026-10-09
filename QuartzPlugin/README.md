@@ -1,0 +1,1 @@
+A package to simplify the setting of Quartz v3 into main project of appsettings.json

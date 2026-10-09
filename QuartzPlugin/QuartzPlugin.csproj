@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PackageId>QuartzPlugin</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Dio Liew</Authors>
+    <Company>Venture GES Manufacturing Services(M) Sdn Bhd</Company>
+    <Description>A package to simplify the setting of Quartz v3 into main project of appsettings.json</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/DioLiew/QuartzPlugin/tree/main</RepositoryUrl>
+  </PropertyGroup>
+  <ItemGroup>
+   <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Quartz" Version="3.22.4" />
+    <PackageReference Include="Quartz.Extensions.Hosting" Version="3.22.4" />
+    <PackageReference Include="Quartz.Plugins" Version="3.22.4" />
+    <PackageReference Include="Quartz.Plugins.TimeZoneConverter" Version="3.22.4" />
+  </ItemGroup>
+</Project>
